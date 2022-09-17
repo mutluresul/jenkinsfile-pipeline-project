@@ -7,13 +7,12 @@ pipeline {
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
+    }
 
-            stage('build') {
+        stage('build') {
             steps {
                 echo 'welkommen !!!!!'
                 sh 'jag heter regenar'
-            
             }
         }
-    }
 }
