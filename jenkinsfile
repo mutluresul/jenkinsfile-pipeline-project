@@ -12,7 +12,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'welkommen !!!!!'
-                sh 'jag heter regenar'
+                sh 'echo jag heter regenar'
             }
         }
 }
